@@ -11,7 +11,7 @@ class Solution {
             if(s == sum){
                 return mid;
             } 
-            else if(s>sum){
+            else if(s > sum){
                 j = mid - 1;
             }
             else{
